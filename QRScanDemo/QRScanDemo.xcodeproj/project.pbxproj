@@ -29,8 +29,6 @@
 		18CEF74E1C8EAA9000462665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CEF74C1C8EAA9000462665 /* Main.storyboard */; };
 		18CEF7501C8EAA9000462665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CEF74F1C8EAA9000462665 /* Assets.xcassets */; };
 		18CEF7531C8EAA9000462665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CEF7511C8EAA9000462665 /* LaunchScreen.storyboard */; };
-		18CEF75E1C8EAA9000462665 /* QRScanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEF75D1C8EAA9000462665 /* QRScanDemoTests.m */; };
-		18CEF7691C8EAA9000462665 /* QRScanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEF7681C8EAA9000462665 /* QRScanDemoUITests.m */; };
 		18CEF7831C8EAAA200462665 /* QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CEF7781C8EAAA200462665 /* QRCodeScanLine@2x.png */; };
 		18CEF7841C8EAAA200462665 /* ScanQR1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CEF7791C8EAAA200462665 /* ScanQR1@2x.png */; };
 		18CEF7851C8EAAA200462665 /* ScanQR2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CEF77A1C8EAAA200462665 /* ScanQR2@2x.png */; };
@@ -83,11 +81,7 @@
 		18CEF7521C8EAA9000462665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CEF7541C8EAA9000462665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CEF7591C8EAA9000462665 /* QRScanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18CEF75D1C8EAA9000462665 /* QRScanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRScanDemoTests.m; sourceTree = "<group>"; };
-		18CEF75F1C8EAA9000462665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CEF7641C8EAA9000462665 /* QRScanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18CEF7681C8EAA9000462665 /* QRScanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRScanDemoUITests.m; sourceTree = "<group>"; };
-		18CEF76A1C8EAA9000462665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CEF7781C8EAAA200462665 /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
 		18CEF7791C8EAAA200462665 /* ScanQR1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR1@2x.png"; sourceTree = "<group>"; };
 		18CEF77A1C8EAAA200462665 /* ScanQR2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR2@2x.png"; sourceTree = "<group>"; };
@@ -158,8 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				18CEF7421C8EAA9000462665 /* QRScanDemo */,
-				18CEF75C1C8EAA9000462665 /* QRScanDemoTests */,
-				18CEF7671C8EAA9000462665 /* QRScanDemoUITests */,
 				18CEF7411C8EAA9000462665 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -201,24 +193,6 @@
 				18CEF7441C8EAA9000462665 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		18CEF75C1C8EAA9000462665 /* QRScanDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				18CEF75D1C8EAA9000462665 /* QRScanDemoTests.m */,
-				18CEF75F1C8EAA9000462665 /* Info.plist */,
-			);
-			path = QRScanDemoTests;
-			sourceTree = "<group>";
-		};
-		18CEF7671C8EAA9000462665 /* QRScanDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18CEF7681C8EAA9000462665 /* QRScanDemoUITests.m */,
-				18CEF76A1C8EAA9000462665 /* Info.plist */,
-			);
-			path = QRScanDemoUITests;
 			sourceTree = "<group>";
 		};
 		18CEF7761C8EAAA200462665 /* QRScan */ = {
@@ -311,7 +285,7 @@
 		18CEF7381C8EAA9000462665 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					18CEF73F1C8EAA9000462665 = {
@@ -330,10 +304,9 @@
 			};
 			buildConfigurationList = 18CEF73B1C8EAA9000462665 /* Build configuration list for PBXProject "QRScanDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -409,7 +382,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CEF75E1C8EAA9000462665 /* QRScanDemoTests.m in Sources */,
 				189208731EC04C3200245FAD /* CodeViewController.m in Sources */,
 				1892086B1EC04B2600245FAD /* UIImage+Qin.m in Sources */,
 				1892086F1EC04B9B00245FAD /* UIColor+Qin.m in Sources */,
@@ -422,7 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CEF7691C8EAA9000462665 /* QRScanDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,17 +436,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -509,17 +491,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -573,7 +566,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QRScanDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Zirkfied.QRScanDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Qin.QRScanDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRScanDemo.app/QRScanDemo";
 			};
@@ -585,7 +578,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QRScanDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Zirkfied.QRScanDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Qin.QRScanDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRScanDemo.app/QRScanDemo";
 			};
@@ -596,7 +589,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = QRScanDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Zirkfied.QRScanDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Qin.QRScanDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = QRScanDemo;
 				USES_XCTRUNNER = YES;
@@ -608,7 +601,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = QRScanDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Zirkfied.QRScanDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Qin.QRScanDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = QRScanDemo;
 				USES_XCTRUNNER = YES;

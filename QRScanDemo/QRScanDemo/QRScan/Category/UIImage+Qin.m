@@ -1,5 +1,5 @@
 //
-//  UIImage+Zirkfied.m
+//  UIImage+Qin.m
 //  SmartLife
 //
 //  Created by Qin on 16/4/8.
@@ -9,7 +9,7 @@
 #import "UIImage+Qin.h"
 #import "UIColor+Qin.h"
 
-@implementation UIImage (Zirkfied)
+@implementation UIImage (qin)
 
 + (instancetype)imageForCodeString:(NSString *)string size:(CGFloat)size color:(UIColor *)color pattern:(kCodePattern)pattern{
     return [[self alloc] initWithString:string size:size color:color pattern:pattern];

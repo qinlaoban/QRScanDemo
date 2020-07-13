@@ -1,5 +1,5 @@
 //
-//  UIImage+Zirkfied.h
+//  UIImage+Qin.h
 //  SmartLife
 //
 //  Created by Qin on 16/4/8.
@@ -13,7 +13,7 @@ typedef enum{
     kCodePatternForQRCode = 1//二维码
 }kCodePattern;
 
-@interface UIImage (Zirkfied)
+@interface UIImage (Qin)
 
 /**
  *  生成二维码
